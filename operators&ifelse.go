@@ -37,4 +37,21 @@ func main() {
 		maka ketika di run hasilnya:
 		invalid operation: 1 == "1" (mismatched types untyped int and untyped string)
 	*/
+
+	nilai1 := 20
+	nilai2 := 30
+
+	result := nilai1 + nilai2
+
+	if result == 50 {
+		fmt.Println("Same numeric")
+	} else if result > 50 {
+		fmt.Println("Bigger than 50")
+	} else {
+		fmt.Println("Less than 50")
+	}
+
+	/*Jika if == sama, proses stop. Jika gk memenuhi syarat
+	maka yang dibaca else if, jika gk memenuhi syarat maka pindah
+	lagi ke bawah. */
 }
