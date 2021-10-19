@@ -23,6 +23,8 @@ func main() {
 	*/
 
 	var nama string = "Setyo Aji"
-	fmt.Println("My name is", nama)
+	var umur int = 22
+
+	fmt.Println("My name is", nama, "and I'm", umur, "years old")
 
 }
