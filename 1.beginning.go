@@ -39,9 +39,13 @@ func main() {
 	karena sudah beda variabel (re-assign).
 	Kasih beda contoh lagi*/
 
+	/*Coba ini dihapus commentny terus run codeny.
+
 	tempat_tinggal = "Nuri Street No 51"
 	fmt.Println("I lived in", tempat_tinggal)
-	/*muncul error. Cannot assign to tempat_tinggal (declared const)
+
+
+	/*Jalankan kode di atas maka akan muncul error. Cannot assign to tempat_tinggal (declared const)
 	Bedanya const dan variabel, kalau const kalau sudah dideklarasi dan sdh diassign
 	valuenya/isinya tidak boleh lagi dikasih value/assign yang berbeda. Kalau variabel
 	bisa diganti/reassign valuen= atau nilainya. Itu aja bedanya. Kenapa umur bisa terganti?
