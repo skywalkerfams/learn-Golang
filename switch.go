@@ -48,10 +48,21 @@ func main() {
 	Jika secara logika, nilai 2 tidak habis dibagi 3. Untuk itu kita
 	harus hati2 dalam memakai simbol kondisi. Maka kita ganti dengan && dan dan */
 
-	c := 2 //variabelnya diganti c karena a dan b sudah terpakai di atas
+	c := 6 //variabelnya diganti c karena a dan b sudah terpakai di atas. Coba deh diganti2.
 	if c >= 0 && c%3 == 0 {
-		fmt.Println("Nilai c habis dibagi 3")
+		fmt.Println("Nilai c habis dibagi 3 using if")
 	} else {
-		fmt.Println("Nilai c tidak habis dibagi 3")
+		fmt.Println("Nilai c tidak habis dibagi 3 using else")
+	}
+
+	/* kalau || atau jika salah satu kondisi terpenuhi, maka itu akan masuk if. && dan kalau
+	semua kondisi harus terpenuhi agar bisa masuk ke if
+	Jika salah satu false maka gk akan masuk ke if dan lari ke else.*/
+
+	switch {
+	case c >= 0 && c%3 == 0:
+		fmt.Println("Nilai c habis dibagi 3 using switch")
+	default:
+		fmt.Println("Nilai c tidak habis dibagi 3 using switch")
 	}
 }
