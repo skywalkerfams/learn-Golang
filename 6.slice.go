@@ -31,10 +31,32 @@ func main() { //contoh array
 	slice = append(slice, 1005)
 	fmt.Println(slice)
 
-	slice2[0] = 1 //[1 0 33 34 35 36] karena index 1 gk ada valueny maka 0
-	slice2 = append(slice2, 33)
-	slice2 = append(slice2, 34)
-	slice2 = append(slice2, 35)
-	slice2 = append(slice2, 36)
+	slice2[0] = 1               //[1 0 33 34 35 36] karena index 1 gk ada valueny maka 0
+	slice2 = append(slice2, 33) //2
+	slice2 = append(slice2, 34) //3
+	slice2 = append(slice2, 35) //4
+	slice2 = append(slice2, 36) //5
 	fmt.Println(slice2)
+
+	fmt.Println(slice2[3])
+
+	//hapus komen ini dan sisakan array sama dengan lalu run untuk tes -> array = append(array, 99)
+	//ada error jika cursor diarahkan ke array. Invalid argumen. Array gk bisa diappend. Cek komen paling atas
+
+	// for i := 0; i < count; i++ {
+	//i akan dilooping sebanyak count. Count itu bentuknya integer, gk bisa float (koma)
+	//mod atau % adalah nilai sisa bagi. 3%2=1, 6%2=0, dst.
+
+	/* for i := 0; i < len(slice2); i++ {
+		fmt.Println("Looping results", slice2[i])
+	} */ //multiple comment ini bisa dihapus
+
+	for i := 0; i < len(slice2); i++ {
+		if slice2[i]%2 == 0 {
+			fmt.Println("Hasil Perulangan Genap", slice2[i])
+		} else {
+			fmt.Println("Hasil Perulangan Ganjil", slice2[i])
+		}
+	}
+
 }
