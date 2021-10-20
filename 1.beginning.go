@@ -49,7 +49,7 @@ func main() {
 	Bedanya const dan variabel, kalau const kalau sudah dideklarasi dan sdh diassign
 	valuenya/isinya tidak boleh lagi dikasih value/assign yang berbeda. Kalau variabel
 	bisa diganti/reassign valuen= atau nilainya. Itu aja bedanya. Kenapa umur bisa terganti?
-	karena umur itu variabel awal deklarasinya. */
+	karena umur itu variabel awal deklarasiny. */
 
 	//coba dihapus tempat_tinggal yang nuri street no 51. Lalu run
 }

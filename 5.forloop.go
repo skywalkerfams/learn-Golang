@@ -45,7 +45,7 @@ func main() {
 	for c := 0; c <= 5; c++ {
 		if c == 3 {
 			continue /* ketika c nya == 3, maka code will be stop at value 3.
-			Setelah itu dilanjutkan lagi setelah memenuhi syarat*/
+			Setelah itu dilanjutkan lagi setelah memenuhi syarat atau kondisi setelah ;*/
 		}
 		fmt.Println("Value dari c ", c)
 	}

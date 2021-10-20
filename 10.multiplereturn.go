@@ -29,3 +29,9 @@ func Calculator(nilai1, nilai2, nilai3 int) (int, int, int, float64) {
 
 	return pengurangan, pertambahan, perkalian, pembagian //coba ditukar. Tergantung posisi return value.
 }
+
+//Kenapa float ada float64 dan float32, itu karena tipe data. 32 bit dan 64bit.
+/*bit size untuk float32 itu memiliki size sebesar 32 bit,
+sedangkan float64 (double) memiliki size sebesar 64 bit.
+Ini bukan sembarang size saja,
+hal ini mempengaruhi presisi suatu nilai type data tersebut.*/

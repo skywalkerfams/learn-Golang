@@ -1,7 +1,7 @@
 /* Array adalah kumpulan data yang disimpan dalam variabel yang dimana
 array mempunyai kapasitas yang kita tentukan saat deklarasi.
 Array akan dimulai indexnya dari 0 sedangkan lengthny dimulai dari 1.
-Jangan sampai kebalik*/
+Jangan sampai kebalik.*/
 
 package main
 

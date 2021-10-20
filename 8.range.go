@@ -57,7 +57,7 @@ func main() {
 	fmt.Println(c)
 
 	for _, v := range c { //index i diganti underscore jika tidak ingin dipakai
-		//fmt.Println("Index:", i) //hilangkan komen dan ganti _ jadi i untuk mengetes kode
+		//fmt.Println("Index:", i) //hilangkan komen, ganti _ jadi i untuk mengetes kode
 		fmt.Println("value:", v)
 	}
 }

@@ -41,7 +41,7 @@ func main() { //contoh array
 	fmt.Println(slice2[3])
 
 	//hapus komen ini dan sisakan array sama dengan lalu run untuk tes -> array = append(array, 99)
-	//ada error jika cursor diarahkan ke array. Invalid argumen. Array gk bisa diappend. Cek komen paling atas
+	//ada error jika cursor diarahkan ke array. Invalid argumen. Array gk bisa diappend.
 
 	// for i := 0; i < count; i++ {
 	//i akan dilooping sebanyak count. Count itu bentuknya integer, gk bisa float (koma)

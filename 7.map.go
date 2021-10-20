@@ -37,7 +37,7 @@ func main() {
 	delete(b, 12) //boleh dihapus karena berhubungan dengan value&isB
 	fmt.Println(b)
 
-	//map punya cara untuk mengecek key dalam map tsb. Misal ada 2 variabel seperti dibawah.
+	//map punya cara untuk mengecek key dalam map tersebut. Misal ada 2 variabel seperti dibawah.
 
 	value, isB := b[10]         //coba diganti indexny sesuai deklarasi map di atas
 	fmt.Println("value", value) //value disini adalah mereturn nilai yang b[12]=200 yang diatas. Kan variabelny b

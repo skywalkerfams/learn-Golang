@@ -45,7 +45,7 @@ func printnameusingparameterreturnvalue(nama string) string {
 }
 
 //Digolang itu kalau nama atau huruf depannya besar maka itu public
-//kalau huruf depannya kecil itu private.
+//kalau huruf depannya kecil itu private. Coba dirun
 
 func cetaknamaprivate() {
 	var nama = "Saim"

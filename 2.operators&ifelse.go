@@ -53,5 +53,5 @@ func main() {
 
 	/*Jika if == sama, proses stop. Jika gk memenuhi syarat
 	maka yang dibaca else if, jika gk memenuhi syarat maka pindah
-	lagi ke bawah. */
+	lagi ke bawah dst. */
 }

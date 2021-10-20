@@ -57,7 +57,7 @@ func main() {
 
 	/* kalau || atau jika salah satu kondisi terpenuhi, maka itu akan masuk if. && dan kalau
 	semua kondisi harus terpenuhi agar bisa masuk ke if
-	Jika salah satu false maka gk akan masuk ke if dan lari ke else.*/
+	Jika salah satu false maka gk akan masuk ke if dan lari ke else..*/
 
 	switch {
 	case c >= 0 && c%3 == 0:
