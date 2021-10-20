@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	fmt.Println("Ini tes ke Tiga save dari VSCode")
@@ -45,9 +43,9 @@ func main() {
 	fmt.Println("I lived in", tempat_tinggal)
 	/*muncul error. Cannot assign to tempat_tinggal (declared const)
 	Bedanya const dan variabel, kalau const kalau sudah dideklarasi dan sdh diassign
-	valuenya/isinya tidak boleh lagi dikasih value/assign yang berbeda. Kalau variabel 
+	valuenya/isinya tidak boleh lagi dikasih value/assign yang berbeda. Kalau variabel
 	bisa diganti/reassign valuen= atau nilainya. Itu aja bedanya. Kenapa umur bisa terganti?
-	karena umur itu variabel awal deklarasinya. 
+	karena umur itu variabel awal deklarasinya. */
 
-
+	//coba dihapus tempat_tinggal yang nuri street no 51. Lalu run
 }
